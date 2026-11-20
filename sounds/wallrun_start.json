@@ -1,0 +1,39 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "wallrun_start",
+	"distance": 45,
+	"priority": 1,
+	"max_instances": 2,
+	"voices": [
+		{
+			"wave": "noise",
+			"volume": 0.3,
+			"freq": 5000,
+			"decay": 0.04,
+			"hpf": 2500
+		},
+		{
+			"wave": "triangle",
+			"volume": 0.3,
+			"freq": 520,
+			"slide": -1.5,
+			"punch": 0.4,
+			"sustain": 0.01,
+			"decay": 0.12,
+			"arp_mult": 1.5,
+			"arp_time": 0.03
+		},
+		{
+			"wave": "noise",
+			"volume": 0.25,
+			"freq": 1400,
+			"attack": 0.02,
+			"decay": 0.22,
+			"lpf": 1500,
+			"lpf_sweep": 2.0,
+			"flanger_ms": 1.5,
+			"flanger_sweep": 8.0
+		}
+	]
+}

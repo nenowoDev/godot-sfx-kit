@@ -1,0 +1,38 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "wall_jump",
+	"distance": 50,
+	"priority": 1,
+	"max_instances": 2,
+	"voices": [
+		{
+			"wave": "noise",
+			"volume": 0.3,
+			"freq": 5000,
+			"decay": 0.03,
+			"hpf": 2000
+		},
+		{
+			"wave": "sine",
+			"volume": 0.4,
+			"freq": 150,
+			"slide": -3.0,
+			"punch": 0.6,
+			"sustain": 0.02,
+			"decay": 0.12
+		},
+		{
+			"wave": "noise",
+			"volume": 0.25,
+			"freq": 1200,
+			"delay": 0.02,
+			"attack": 0.03,
+			"decay": 0.25,
+			"lpf": 1200,
+			"lpf_sweep": 2.5,
+			"flanger_ms": 2.0,
+			"flanger_sweep": 6.0
+		}
+	]
+}

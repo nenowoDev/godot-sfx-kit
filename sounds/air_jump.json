@@ -1,0 +1,39 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "air_jump",
+	"distance": 60,
+	"priority": 1,
+	"max_instances": 2,
+	"voices": [
+		{
+			"wave": "noise",
+			"volume": 0.35,
+			"freq": 900,
+			"attack": 0.01,
+			"sustain": 0.08,
+			"decay": 0.3,
+			"lpf": 2200,
+			"lpf_sweep": -1.5,
+			"lpf_resonance": 0.25,
+			"flanger_ms": 3.0,
+			"flanger_sweep": 6.0
+		},
+		{
+			"wave": "sine",
+			"volume": 0.35,
+			"freq": 70,
+			"slide": 1.0,
+			"punch": 0.5,
+			"sustain": 0.02,
+			"decay": 0.25
+		},
+		{
+			"wave": "noise",
+			"volume": 0.12,
+			"freq": 6000,
+			"decay": 0.12,
+			"hpf": 3000
+		}
+	]
+}

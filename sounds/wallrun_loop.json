@@ -1,0 +1,35 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "wallrun_loop",
+	"loop": true,
+	"loop_length": 1.0,
+	"distance": 45,
+	"priority": 1,
+	"max_instances": 2,
+	"voices": [
+		{
+			"wave": "noise",
+			"volume": 0.26,
+			"freq": 4200,
+			"hpf": 1500,
+			"lpf": 6000,
+			"lpf_resonance": 0.5
+		},
+		{
+			"wave": "square",
+			"volume": 0.05,
+			"freq": 880,
+			"duty": 0.3,
+			"vibrato_depth": 0.6,
+			"vibrato_speed": 7,
+			"lpf": 2500
+		},
+		{
+			"wave": "noise",
+			"volume": 0.22,
+			"freq": 220,
+			"lpf": 520
+		}
+	]
+}

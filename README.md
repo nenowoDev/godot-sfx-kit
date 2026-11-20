@@ -27,8 +27,8 @@ important one (it's skipped and `skipped` counts it), and one sound holds at mos
 (`pitch_jitter`, `volume_jitter`) from `rng` (seed it for repeatable runs). **Bus**: `bus` (default `SFX`, falls
 back to `Master` when the project has no such bus).
 
-**Rendering cost**: about 0.14 s of CPU per second of sound (GDScript, 44.1 kHz). The 31 built-in presets are
-15.5 s of audio, ~2-3 s to render all. A sound renders the first time it plays; call `warm([], true)` during a
+**Rendering cost**: about 0.14 s of CPU per second of sound (GDScript, 44.1 kHz). The 37 built-in presets are
+~19 s of audio, ~2-3 s to render all. A sound renders the first time it plays; call `warm([], true)` during a
 loading screen so no first play waits. Edits in the Studio re-render only the changed sound.
 
 ## The presets (`sounds/`)
@@ -43,6 +43,7 @@ loading screen so no first play waits. Edits in the Studio re-render only the ch
 | `step_heavy`, `step_light` | footsteps (lower the pitch with mass) |
 | `servo` | a joint or turret turning |
 | `jump`, `land`, `dash` | movement |
+| `slide_start`, `slide_loop`, `wallrun_start`, `wallrun_loop`, `wall_jump`, `air_jump` | a light machine's agile moves (the loops' pitch and level follow speed) |
 | `tracks_loop`, `engine_loop`, `thruster_loop` | loops: attach them, raise `pitch_scale` with speed / thrust |
 | `reload`, `ready` | weapon state: a reload click, a ready ping |
 | `ui_click`, `ui_hover`, `part_snap` | interface and assembly |
@@ -103,7 +104,8 @@ Square and saw are band-limited, so high notes don't alias.
 
 When this add-on is installed, the Workshop plays its sounds (loaded by path, so the Machine Assembler add-on
 works without it): a fire sound per ammo type, an impact per ammo kind, electric zaps on chain jumps, footsteps
-from the gait's foot plants (pitch and level follow mass), jump / land / dash while driving, an engine,
+from the gait's foot plants (pitch and level follow mass), jump / land while driving, every agile move of a light
+machine (dash, slide scrape, wall run, wall jump, air jump: Machine Assembler `MachineAgileFx`), an engine,
 thruster or tracks loop while driving, a part snapping on in Build and parts breaking off.
 
 ## Test

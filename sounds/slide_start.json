@@ -1,0 +1,38 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "slide_start",
+	"distance": 40,
+	"priority": 1,
+	"max_instances": 2,
+	"pitch_jitter": 0.06,
+	"voices": [
+		{
+			"wave": "noise",
+			"volume": 0.4,
+			"freq": 2200,
+			"attack": 0.005,
+			"sustain": 0.03,
+			"decay": 0.2,
+			"lpf": 4500,
+			"lpf_sweep": -3.0,
+			"hpf": 300
+		},
+		{
+			"wave": "sine",
+			"volume": 0.35,
+			"freq": 120,
+			"slide": -2.5,
+			"punch": 0.5,
+			"sustain": 0.01,
+			"decay": 0.09
+		},
+		{
+			"wave": "noise",
+			"volume": 0.15,
+			"freq": 6000,
+			"decay": 0.03,
+			"hpf": 3000
+		}
+	]
+}

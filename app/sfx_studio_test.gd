@@ -9,7 +9,8 @@ extends RefCounted
 ## user://sfxtest_sample.wav.
 
 const NEEDED := ["explosion", "zap", "servo", "step_heavy", "step_light", "tracks_loop", "engine_loop",
-	"thruster_loop", "jump", "land", "reload", "ready", "dash", "ui_click", "ui_hover", "part_snap", "part_break"]
+	"thruster_loop", "jump", "land", "reload", "ready", "dash", "ui_click", "ui_hover", "part_snap", "part_break",
+	"slide_start", "slide_loop", "wallrun_start", "wallrun_loop", "wall_jump", "air_jump"]
 const STATS := "res://machine_parts/stats.json"
 
 

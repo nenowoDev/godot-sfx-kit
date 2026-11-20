@@ -16,7 +16,8 @@ sound designer: explain sound choices in plain terms (transient / body / tail, p
   volumes and raise the sound's `volume_db` instead.
 - Rendering is deterministic (seeded by the sound's name); per-play variety is the player's jitter.
 - Naming the Machine Parts Workshop relies on: `fire_<ammo type lower case>`, `impact_<ammo kind>`,
-  `step_heavy`, `step_light`, `jump`, `land`, `dash`, `zap`, `part_snap`, `part_break`, `explosion`, and the
+  `step_heavy`, `step_light`, `jump`, `land`, `dash`, the agile moves `slide_start`, `slide_loop`, `wallrun_start`,
+  `wallrun_loop`, `wall_jump`, `air_jump` (MachineAgileFx falls back to older ones when missing), `zap`, `part_snap`, `part_break`, `explosion`, and the
   loops `engine_loop`, `thruster_loop`, `tracks_loop`. The self-test checks fire / impact coverage against
   `res://machine_parts/stats.json` when it exists.
 - The Machine Assembler add-on loads this one by path (optional). Keep `SfxLibrary.load_default()`,

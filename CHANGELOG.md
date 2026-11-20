@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Presets for light machines' agile moves (machine-parts ROADMAP 20): `slide_start` (a scuff), `slide_loop` (a gritty
+  scrape, loops), `wallrun_start` (a metal contact ping and whoosh), `wallrun_loop` (a bright, ringing scrape, loops),
+  `wall_jump` (a kick: click, thump, rising whoosh), `air_jump` (a thruster burst). The self-test needs them.
+
 ## 0.1.0
 
 - First version (SFX builder stage 1 of the Machine Parts project, ROADMAP 8): `SfxLibrary` (JSON sound

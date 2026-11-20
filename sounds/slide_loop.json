@@ -1,0 +1,36 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "slide_loop",
+	"loop": true,
+	"loop_length": 1.2,
+	"distance": 45,
+	"priority": 1,
+	"max_instances": 2,
+	"voices": [
+		{
+			"wave": "noise",
+			"volume": 0.32,
+			"freq": 2600,
+			"lpf": 3800,
+			"lpf_resonance": 0.3,
+			"hpf": 700
+		},
+		{
+			"wave": "noise",
+			"volume": 0.3,
+			"freq": 280,
+			"lpf": 650
+		},
+		{
+			"wave": "square",
+			"volume": 0.05,
+			"freq": 46,
+			"duty": 0.15,
+			"vibrato_depth": 1.5,
+			"vibrato_speed": 5,
+			"hpf": 600,
+			"lpf": 2500
+		}
+	]
+}
