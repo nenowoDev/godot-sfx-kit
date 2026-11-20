@@ -1,0 +1,38 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "explosion",
+	"distance": 200,
+	"priority": 3,
+	"max_instances": 3,
+	"voices": [
+		{
+			"wave": "noise",
+			"volume": 0.27,
+			"freq": 600,
+			"sustain": 0.1,
+			"punch": 1.0,
+			"decay": 1.6,
+			"curve": 1.2,
+			"lpf": 2200,
+			"lpf_sweep": -1.5,
+			"drive": 0.7
+		},
+		{
+			"wave": "sine",
+			"volume": 0.27,
+			"freq": 45,
+			"slide": -0.5,
+			"sustain": 0.1,
+			"decay": 1.2
+		},
+		{
+			"wave": "noise",
+			"volume": 0.15,
+			"freq": 2500,
+			"decay": 0.1,
+			"hpf": 1500
+		}
+	],
+	"volume_db": 4.0
+}

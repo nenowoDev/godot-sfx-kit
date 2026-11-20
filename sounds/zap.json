@@ -1,0 +1,26 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "zap",
+	"distance": 60,
+	"priority": 2,
+	"max_instances": 4,
+	"voices": [
+		{
+			"wave": "noise",
+			"volume": 0.35,
+			"freq": 8000,
+			"sustain": 0.01,
+			"punch": 1.0,
+			"decay": 0.08,
+			"hpf": 3000
+		},
+		{
+			"wave": "saw",
+			"volume": 0.15,
+			"freq": 1500,
+			"slide": -6.0,
+			"decay": 0.08
+		}
+	]
+}

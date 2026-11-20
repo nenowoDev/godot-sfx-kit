@@ -1,0 +1,26 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "thruster_loop",
+	"loop": true,
+	"loop_length": 1.5,
+	"distance": 80,
+	"priority": 0,
+	"max_instances": 4,
+	"voices": [
+		{
+			"wave": "noise",
+			"volume": 0.35,
+			"freq": 1200,
+			"lpf": 2500,
+			"lpf_resonance": 0.2,
+			"flanger_ms": 3.0
+		},
+		{
+			"wave": "noise",
+			"volume": 0.35,
+			"freq": 150,
+			"lpf": 400
+		}
+	]
+}

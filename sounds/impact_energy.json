@@ -1,0 +1,32 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "impact_energy",
+	"distance": 70,
+	"priority": 2,
+	"max_instances": 5,
+	"voices": [
+		{
+			"wave": "sine",
+			"volume": 0.25,
+			"freq": 1800,
+			"slide": -5.0,
+			"decay": 0.15
+		},
+		{
+			"wave": "noise",
+			"volume": 0.22,
+			"freq": 5000,
+			"sustain": 0.05,
+			"decay": 0.3,
+			"hpf": 3000
+		},
+		{
+			"wave": "triangle",
+			"volume": 0.25,
+			"freq": 300,
+			"slide": -2.0,
+			"decay": 0.25
+		}
+	]
+}

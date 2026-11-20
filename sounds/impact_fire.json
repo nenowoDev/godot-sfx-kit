@@ -1,0 +1,30 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "impact_fire",
+	"distance": 60,
+	"priority": 2,
+	"max_instances": 4,
+	"voices": [
+		{
+			"wave": "noise",
+			"volume": 0.45,
+			"freq": 300,
+			"attack": 0.01,
+			"sustain": 0.05,
+			"decay": 0.5,
+			"lpf": 900
+		},
+		{
+			"wave": "noise",
+			"volume": 0.15,
+			"freq": 7000,
+			"sustain": 0.1,
+			"decay": 0.5,
+			"hpf": 4000,
+			"arp_mult": 0.4,
+			"arp_time": 0.02,
+			"repeat": 0.05
+		}
+	]
+}

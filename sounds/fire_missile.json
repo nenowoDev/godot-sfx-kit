@@ -1,0 +1,38 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "fire_missile",
+	"distance": 100,
+	"priority": 2,
+	"max_instances": 4,
+	"voices": [
+		{
+			"wave": "noise",
+			"volume": 0.4,
+			"freq": 900,
+			"attack": 0.01,
+			"sustain": 0.15,
+			"decay": 0.6,
+			"lpf": 3000,
+			"lpf_sweep": -1.5,
+			"flanger_ms": 2.0,
+			"flanger_sweep": 6.0
+		},
+		{
+			"wave": "square",
+			"volume": 0.12,
+			"freq": 160,
+			"slide": 1.5,
+			"decay": 0.3,
+			"duty": 0.4,
+			"lpf": 1200
+		},
+		{
+			"wave": "noise",
+			"volume": 0.25,
+			"freq": 4000,
+			"decay": 0.03,
+			"hpf": 2000
+		}
+	]
+}

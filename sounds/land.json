@@ -1,0 +1,35 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "land",
+	"distance": 70,
+	"priority": 2,
+	"max_instances": 2,
+	"voices": [
+		{
+			"wave": "sine",
+			"volume": 0.41,
+			"freq": 60,
+			"slide": -1.0,
+			"sustain": 0.03,
+			"punch": 0.8,
+			"decay": 0.45
+		},
+		{
+			"wave": "noise",
+			"volume": 0.328,
+			"freq": 300,
+			"sustain": 0.02,
+			"decay": 0.35,
+			"lpf": 900
+		},
+		{
+			"wave": "noise",
+			"volume": 0.148,
+			"freq": 2600,
+			"decay": 0.05,
+			"hpf": 1800
+		}
+	],
+	"volume_db": 1.5
+}

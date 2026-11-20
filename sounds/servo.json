@@ -1,0 +1,33 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "servo",
+	"distance": 25,
+	"priority": 0,
+	"max_instances": 3,
+	"voices": [
+		{
+			"wave": "square",
+			"volume": 0.2,
+			"freq": 140,
+			"attack": 0.04,
+			"sustain": 0.25,
+			"decay": 0.12,
+			"duty": 0.4,
+			"vibrato_depth": 0.3,
+			"vibrato_speed": 18,
+			"lpf": 900,
+			"lpf_resonance": 0.4
+		},
+		{
+			"wave": "saw",
+			"volume": 0.1,
+			"freq": 280,
+			"slide": 0.4,
+			"attack": 0.04,
+			"sustain": 0.25,
+			"decay": 0.12,
+			"lpf": 1500
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "part_snap",
+	"priority": 2,
+	"max_instances": 3,
+	"pitch_jitter": 0.03,
+	"voices": [
+		{
+			"wave": "noise",
+			"volume": 0.35,
+			"freq": 2000,
+			"sustain": 0.005,
+			"punch": 1.0,
+			"decay": 0.04,
+			"hpf": 1000
+		},
+		{
+			"wave": "square",
+			"volume": 0.22,
+			"freq": 220,
+			"slide": -2.0,
+			"decay": 0.12,
+			"duty": 0.3,
+			"lpf": 1500
+		},
+		{
+			"wave": "sine",
+			"volume": 0.12,
+			"freq": 880,
+			"delay": 0.03,
+			"decay": 0.15
+		}
+	]
+}

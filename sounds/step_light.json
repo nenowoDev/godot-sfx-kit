@@ -1,0 +1,26 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "step_light",
+	"distance": 30,
+	"priority": 1,
+	"max_instances": 4,
+	"pitch_jitter": 0.1,
+	"volume_jitter": 2.0,
+	"voices": [
+		{
+			"wave": "noise",
+			"volume": 0.25,
+			"freq": 3000,
+			"decay": 0.04,
+			"hpf": 1500
+		},
+		{
+			"wave": "triangle",
+			"volume": 0.25,
+			"freq": 260,
+			"slide": -2.0,
+			"decay": 0.06
+		}
+	]
+}

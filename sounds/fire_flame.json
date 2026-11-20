@@ -1,0 +1,31 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "fire_flame",
+	"distance": 50,
+	"priority": 2,
+	"max_instances": 4,
+	"pitch_jitter": 0.08,
+	"voices": [
+		{
+			"wave": "noise",
+			"volume": 0.45,
+			"freq": 600,
+			"attack": 0.03,
+			"sustain": 0.12,
+			"decay": 0.35,
+			"lpf": 1400,
+			"lpf_sweep": 1.0,
+			"lpf_resonance": 0.3
+		},
+		{
+			"wave": "noise",
+			"volume": 0.4,
+			"freq": 120,
+			"attack": 0.02,
+			"sustain": 0.1,
+			"decay": 0.4,
+			"lpf": 400
+		}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "dash",
+	"distance": 50,
+	"priority": 1,
+	"max_instances": 2,
+	"voices": [
+		{
+			"wave": "noise",
+			"volume": 0.35,
+			"freq": 1500,
+			"attack": 0.01,
+			"sustain": 0.04,
+			"decay": 0.22,
+			"lpf": 3000,
+			"lpf_sweep": -2.0,
+			"flanger_ms": 1.5,
+			"flanger_sweep": 10.0
+		},
+		{
+			"wave": "sine",
+			"volume": 0.2,
+			"freq": 220,
+			"slide": -2.0,
+			"decay": 0.15
+		}
+	]
+}

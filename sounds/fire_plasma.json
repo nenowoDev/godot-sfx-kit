@@ -1,0 +1,31 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "fire_plasma",
+	"distance": 80,
+	"priority": 2,
+	"max_instances": 3,
+	"voices": [
+		{
+			"wave": "saw",
+			"volume": 0.25,
+			"freq": 300,
+			"slide": 1.0,
+			"sustain": 0.1,
+			"decay": 0.35,
+			"vibrato_depth": 3.0,
+			"vibrato_speed": 30,
+			"lpf": 1800,
+			"lpf_resonance": 0.6,
+			"lpf_sweep": -2.0
+		},
+		{
+			"wave": "sine",
+			"volume": 0.35,
+			"freq": 150,
+			"slide": -1.0,
+			"sustain": 0.05,
+			"decay": 0.4
+		}
+	]
+}

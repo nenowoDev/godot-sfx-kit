@@ -1,0 +1,33 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "fire_cannonball",
+	"distance": 120,
+	"priority": 2,
+	"max_instances": 2,
+	"voices": [
+		{
+			"wave": "sine",
+			"volume": 0.5,
+			"freq": 110,
+			"slide": -2.0,
+			"sustain": 0.05,
+			"punch": 0.5,
+			"decay": 0.35
+		},
+		{
+			"wave": "noise",
+			"volume": 0.3,
+			"freq": 300,
+			"sustain": 0.03,
+			"decay": 0.4,
+			"lpf": 900
+		},
+		{
+			"wave": "triangle",
+			"volume": 0.25,
+			"freq": 55,
+			"decay": 0.5
+		}
+	]
+}

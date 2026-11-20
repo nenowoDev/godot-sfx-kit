@@ -1,0 +1,25 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "ui_click",
+	"priority": 1,
+	"max_instances": 2,
+	"pitch_jitter": 0.02,
+	"volume_jitter": 0.5,
+	"voices": [
+		{
+			"wave": "square",
+			"volume": 0.18,
+			"freq": 1200,
+			"decay": 0.03,
+			"lpf": 4000
+		},
+		{
+			"wave": "noise",
+			"volume": 0.12,
+			"freq": 5000,
+			"decay": 0.01,
+			"hpf": 3000
+		}
+	]
+}

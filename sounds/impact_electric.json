@@ -1,0 +1,32 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "impact_electric",
+	"distance": 70,
+	"priority": 2,
+	"max_instances": 4,
+	"voices": [
+		{
+			"wave": "noise",
+			"volume": 0.3,
+			"freq": 6000,
+			"punch": 0.8,
+			"sustain": 0.02,
+			"decay": 0.25,
+			"hpf": 2000,
+			"arp_mult": 0.6,
+			"arp_time": 0.015,
+			"repeat": 0.03
+		},
+		{
+			"wave": "square",
+			"volume": 0.18,
+			"freq": 200,
+			"sustain": 0.03,
+			"decay": 0.2,
+			"vibrato_depth": 12.0,
+			"vibrato_speed": 60,
+			"lpf": 3000
+		}
+	]
+}

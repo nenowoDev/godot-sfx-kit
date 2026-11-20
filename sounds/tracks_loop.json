@@ -1,0 +1,33 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "tracks_loop",
+	"loop": true,
+	"loop_length": 1.0,
+	"distance": 60,
+	"priority": 0,
+	"max_instances": 2,
+	"voices": [
+		{
+			"wave": "noise",
+			"volume": 0.45,
+			"freq": 90,
+			"lpf": 300
+		},
+		{
+			"wave": "square",
+			"volume": 0.25,
+			"freq": 32,
+			"duty": 0.2,
+			"lpf": 400
+		},
+		{
+			"wave": "square",
+			"volume": 0.12,
+			"freq": 12,
+			"duty": 0.15,
+			"hpf": 400,
+			"lpf": 3000
+		}
+	]
+}

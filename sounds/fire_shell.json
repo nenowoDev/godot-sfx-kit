@@ -1,0 +1,38 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "fire_shell",
+	"distance": 120,
+	"priority": 2,
+	"max_instances": 3,
+	"pitch_jitter": 0.05,
+	"voices": [
+		{
+			"wave": "noise",
+			"volume": 0.306,
+			"freq": 500,
+			"sustain": 0.05,
+			"punch": 0.8,
+			"decay": 0.6,
+			"lpf": 1800,
+			"lpf_sweep": -3.0,
+			"drive": 0.4
+		},
+		{
+			"wave": "sine",
+			"volume": 0.306,
+			"freq": 70,
+			"slide": -1.5,
+			"sustain": 0.04,
+			"decay": 0.45
+		},
+		{
+			"wave": "noise",
+			"volume": 0.204,
+			"freq": 2500,
+			"decay": 0.05,
+			"hpf": 1200
+		}
+	],
+	"volume_db": 3.0
+}

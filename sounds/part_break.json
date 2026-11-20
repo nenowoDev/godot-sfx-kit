@@ -1,0 +1,39 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "part_break",
+	"distance": 100,
+	"priority": 3,
+	"max_instances": 3,
+	"voices": [
+		{
+			"wave": "noise",
+			"volume": 0.4,
+			"freq": 700,
+			"sustain": 0.05,
+			"punch": 1.0,
+			"decay": 0.4,
+			"lpf": 3000,
+			"drive": 0.6
+		},
+		{
+			"wave": "saw",
+			"volume": 0.18,
+			"freq": 300,
+			"slide": -3.0,
+			"decay": 0.35,
+			"lpf": 2000
+		},
+		{
+			"wave": "noise",
+			"volume": 0.15,
+			"freq": 4000,
+			"sustain": 0.05,
+			"decay": 0.3,
+			"hpf": 2500,
+			"arp_mult": 0.5,
+			"arp_time": 0.02,
+			"repeat": 0.04
+		}
+	]
+}

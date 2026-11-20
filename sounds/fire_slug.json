@@ -1,0 +1,38 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "fire_slug",
+	"distance": 90,
+	"priority": 2,
+	"max_instances": 3,
+	"voices": [
+		{
+			"wave": "noise",
+			"volume": 0.34,
+			"freq": 3000,
+			"sustain": 0.005,
+			"punch": 0.9,
+			"decay": 0.05,
+			"hpf": 1500
+		},
+		{
+			"wave": "sine",
+			"volume": 0.255,
+			"freq": 2400,
+			"slide": -6.0,
+			"sustain": 0.02,
+			"decay": 0.2
+		},
+		{
+			"wave": "square",
+			"volume": 0.212,
+			"freq": 90,
+			"slide": -1.0,
+			"sustain": 0.02,
+			"decay": 0.25,
+			"duty": 0.3,
+			"lpf": 600
+		}
+	],
+	"volume_db": 1.5
+}

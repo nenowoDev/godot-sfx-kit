@@ -1,0 +1,27 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "ready",
+	"distance": 20,
+	"priority": 1,
+	"max_instances": 2,
+	"pitch_jitter": 0.0,
+	"volume_jitter": 0.0,
+	"voices": [
+		{
+			"wave": "sine",
+			"volume": 0.28,
+			"freq": 1320,
+			"arp_mult": 1.5,
+			"arp_time": 0.06,
+			"sustain": 0.08,
+			"decay": 0.3
+		},
+		{
+			"wave": "triangle",
+			"volume": 0.1,
+			"freq": 2640,
+			"decay": 0.12
+		}
+	]
+}

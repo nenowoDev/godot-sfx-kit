@@ -1,0 +1,34 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "engine_loop",
+	"loop": true,
+	"loop_length": 1.0,
+	"distance": 80,
+	"priority": 0,
+	"max_instances": 2,
+	"voices": [
+		{
+			"wave": "saw",
+			"volume": 0.25,
+			"freq": 55,
+			"lpf": 600,
+			"lpf_resonance": 0.3,
+			"vibrato_depth": 0.1,
+			"vibrato_speed": 5
+		},
+		{
+			"wave": "square",
+			"volume": 0.12,
+			"freq": 110,
+			"duty": 0.3,
+			"lpf": 500
+		},
+		{
+			"wave": "noise",
+			"volume": 0.12,
+			"freq": 400,
+			"lpf": 900
+		}
+	]
+}

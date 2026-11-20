@@ -1,0 +1,37 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "fire_round",
+	"distance": 60,
+	"priority": 2,
+	"max_instances": 6,
+	"pitch_jitter": 0.06,
+	"voices": [
+		{
+			"wave": "noise",
+			"volume": 0.45,
+			"freq": 1800,
+			"sustain": 0.008,
+			"punch": 0.6,
+			"decay": 0.07,
+			"hpf": 700
+		},
+		{
+			"wave": "square",
+			"volume": 0.25,
+			"freq": 230,
+			"slide": -3.0,
+			"sustain": 0.015,
+			"decay": 0.08,
+			"duty": 0.35,
+			"lpf": 2500
+		},
+		{
+			"wave": "noise",
+			"volume": 0.2,
+			"freq": 300,
+			"decay": 0.14,
+			"lpf": 900
+		}
+	]
+}

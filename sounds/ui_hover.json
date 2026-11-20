@@ -1,0 +1,18 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "ui_hover",
+	"priority": 0,
+	"max_instances": 2,
+	"pitch_jitter": 0.02,
+	"volume_jitter": 0.5,
+	"voices": [
+		{
+			"wave": "sine",
+			"volume": 0.12,
+			"freq": 1800,
+			"attack": 0.005,
+			"decay": 0.04
+		}
+	]
+}

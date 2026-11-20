@@ -1,0 +1,28 @@
+{
+	"format": "sfx-sound",
+	"version": 1,
+	"name": "fire_laser",
+	"distance": 70,
+	"priority": 2,
+	"max_instances": 4,
+	"voices": [
+		{
+			"wave": "square",
+			"volume": 0.25,
+			"freq": 1600,
+			"slide": -7.0,
+			"sustain": 0.02,
+			"decay": 0.16,
+			"duty": 0.3,
+			"duty_sweep": 1.5,
+			"lpf": 6000
+		},
+		{
+			"wave": "sine",
+			"volume": 0.2,
+			"freq": 3200,
+			"slide": -8.0,
+			"decay": 0.1
+		}
+	]
+}
