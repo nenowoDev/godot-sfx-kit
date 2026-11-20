@@ -1,7 +1,7 @@
 # SFX Kit (Godot 4.7 add-on)
 
 Reusable add-on: lives at `addons/sfx_kit/` in any Godot project. Developed inside the machine-parts
-repo's Workshop project (`godot/`, meant to become the submodule `godot-sfx-kit`), which is also where it's
+repo's Workshop project (`godot/`, as the submodule `godot-sfx-kit`), which is also where it's
 tested. Edit it there and push it before the machine-parts project. Owner is a software engineer, not a
 sound designer: explain sound choices in plain terms (transient / body / tail, pitch, filters).
 
